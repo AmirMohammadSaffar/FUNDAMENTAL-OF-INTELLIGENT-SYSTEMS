@@ -1,4 +1,4 @@
-# 🌟 Mini Project - Fundamentals of Intelligent Systems
+# 🌟 Mini Project #1- Fundamentals of Intelligent Systems
 
 This project contains two main parts, corresponding to Questions 1 and 2 of the assignment for the **Fundamentals of Intelligent Systems** course.
 
