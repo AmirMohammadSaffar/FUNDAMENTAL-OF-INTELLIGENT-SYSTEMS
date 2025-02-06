@@ -1,78 +1,77 @@
-# 🌟🌟 Mini Project #2- Fundamentals of Intelligent Systems
-# 🌟 Mini Project #1- Fundamentals of Intelligent Systems
+# 🤖 Fundamentals of Intelligent Systems - Project Repository
 
-This project contains two main parts, corresponding to Questions 1 and 2 of the assignment for the **Fundamentals of Intelligent Systems** course.
+Welcome to the **Fundamentals of Intelligent Systems** project repository! This repository contains a series of mini-projects that explore various concepts in **Artificial Intelligence, Machine Learning, Control Systems, and Fuzzy Logic**.
 
-## 🔍 Question 1: Predicting Customer Churn
+## 📌 Project Overview
 
-In this part, we use a dataset related to customer information to predict which customers are likely to stop using the service.
+This repository includes multiple **mini-projects** covering different intelligent system techniques. The key areas of focus include:
 
-### 📊 Project Overview
+1️⃣ **Machine Learning Models & Data Analysis** 📊
+2️⃣ **Neural Networks & Deep Learning** 🧠
+3️⃣ **Fuzzy Logic Control Systems** 🔍
+4️⃣ **Optimization Algorithms** 🎛️
+5️⃣ **Reinforcement Learning & Adaptive Systems** 🚀
 
-- **Data Exploration** 🧐: Analyze customer data such as age, income, and account details.
-- **Data Preprocessing** 🛠️: Apply **One-Hot Encoding** to categorical features, handle missing values, and balance the dataset.
-- **Machine Learning Models** 🤖: Train different models, including **Logistic Regression** and **Random Forest**, to predict customer churn.
-- **Handling Imbalanced Data** ⚖️: Use **SMOTE** to balance the dataset and improve the model's ability to predict minority classes.
-- **Model Evaluation** 📈: Compare model performance with metrics like **Precision**, **Recall**, **F1-score**, and **ROC-AUC**.
+Each mini-project is designed to provide hands-on experience in implementing **intelligent algorithms** and understanding their applications in real-world problems.
 
-### 📂 Dataset
+---
 
-The dataset contains the following features:
+## 📁 Mini Projects
 
-- **Client Number** 🔢: Unique identifier for each customer.
-- **Attrition Flag** 🚩: Indicates if the customer is continuing or has stopped services.
-- **Demographic Information** 👥: Age, gender, marital status, etc.
-- **Account Details** 💳: Credit limit, number of transactions, average utilization, etc.
+### 🔥 **Mini Project #1: Intelligent Systems Fundamentals**
+- **Customer Churn Prediction** 📉
+- **Polynomial Regression with Regularization** 🏗️
+- **Handling Imbalanced Data using SMOTE** ⚖️
+- **Machine Learning Model Evaluation** 🏆
 
-### 🧠 Key Concepts
+### ⚙️ **Mini Project #2: Advanced Neural Networks & Optimization**
+- **Comparison of Activation Functions** 🔄
+- **Hyperparameter Tuning in Neural Networks** 🎚️
+- **Binary Image Processing & Noise Handling** 🖼️
+- **Hamming Networks for Data Recovery** 🔄
+- **Radial Basis Function Neural Networks** 🌐
 
-- **Regularization** 🔒: We used **L2 Regularization (Ridge)** to prevent overfitting.
-- **Imbalanced Data Handling** ⚖️: Balanced the dataset with **SMOTE** to improve accuracy in predicting both classes.
-- **Model Comparison** ⚙️: Compared model performance before and after balancing the dataset.
+### 🚚 **Mini Project #3: Control & Fuzzy Logic Systems**
+- **PID Controller Tuning using Ziegler-Nichols Method** 🎛️
+- **Fuzzy Logic-Based Truck Movement Control** 🚛
+- **Neuro-Fuzzy Modeling with ANFIS** 🤖
+- **Optimization of Fuzzy Inference Systems** 📊
+- **Comparison of RBF and ANFIS Models** 🆚
 
-### 📊 Results
+---
 
-| Model              | Accuracy Before | Accuracy After |
-|--------------------|-----------------|----------------|
-| Logistic Regression| 0.69            | 0.86           |
-| Random Forest      | 0.94            | 0.97           |
+## 📜 Learning Objectives
 
-The results show improved performance in identifying customers likely to stop services after balancing the dataset.
+✔️ Understand the fundamentals of **Intelligent Systems** 🤖
+✔️ Implement **Machine Learning models** for real-world datasets 📊
+✔️ Explore **Deep Learning & Neural Networks** 🧠
+✔️ Design **Fuzzy Logic Controllers** for automation 🔄
+✔️ Optimize models using **Tuning & Regularization** ⚙️
+✔️ Compare different AI techniques for better performance 🚀
 
-## 🔄 Question 2: Polynomial Regression with Regularization
+---
 
-In this part, we explore polynomial regression with regularization techniques to reduce overfitting and improve model performance.
+## 🚀 Future Enhancements
 
-### 📊 Project Overview
+🔹 **Hyperparameter Optimization**: Fine-tune models for better performance.
+🔹 **Reinforcement Learning**: Implement RL-based adaptive systems.
+🔹 **Explainable AI (XAI)**: Enhance model interpretability.
+🔹 **Hybrid Systems**: Combine multiple AI techniques for robust solutions.
 
-- **Polynomial Regression** 📐: Fit polynomial models with different degrees to see their impact on model accuracy.
-- **Manual Regularization** ✋🔒: Apply L2 regularization manually to prevent overfitting.
-- **Model Comparison** 🤖⚖️: Compare different regression models (Linear, Ridge, Decision Tree).
+---
 
-### 📂 Dataset
+## 🔗 References
+- **Scikit-Learn**: Machine Learning Library 🏗️
+- **TensorFlow/Keras**: Deep Learning Framework 🤖
+- **MATLAB/Simulink**: Control System & Fuzzy Logic Modeling 🎛️
+- **ANFIS**: Adaptive Neuro-Fuzzy Inference Systems 📈
 
-- The dataset is a simple one-dimensional array stored in `data.npy`.
-- Place the dataset in the appropriate location, such as `/content/data.npy` in Google Colab.
-
-### 🧠 Key Concepts Implemented
-
-- **Polynomial Regression** 📐: Fit models of different degrees to observe their performance.
-- **Manual Regularization** ✋🔒: Implement L2 regularization manually to control model complexity.
-- **Model Comparison** ⚙️: Compare Linear Regression, Ridge Regression, and Decision Tree Regression.
-
-### 📊 Results and Observations
-
-- **Training and Test Error** 📉: Compare errors for different models and polynomial degrees to understand overfitting.
-- **Regularization Impact** 🔒: See how regularization helps in reducing overfitting.
-
-## 🚀 Future Improvements
-- **Cross-Validation** 🔄: Add cross-validation to evaluate models more robustly.
-- **Hyperparameter Tuning** 🎛️: Use Grid Search to find the best model parameters.
-- **Explore Other Models** 🌲: Try models like **Random Forest** or **Support Vector Regression**.
+---
 
 ## 📜 License
-This project is licensed under the MIT License.
+This repository is licensed under the **MIT License**.
 
 ## 🙏 Acknowledgments
-- Thanks to Scikit-Learn for providing the machine learning tools used in this project.
+Special thanks to **Dr. Aliyar Shorehdeli** and **Amir Mohammad Saffar** for their contributions to these projects!
 
+---
