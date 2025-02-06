@@ -72,6 +72,6 @@ Each mini-project is designed to provide hands-on experience in implementing **i
 This repository is licensed under the **MIT License**.
 
 ## 🙏 Acknowledgments
-Special thanks to **Dr. Aliyar Shorehdeli** and **Amir Mohammad Saffar** for their contributions to these projects!
+Special thanks to **Dr. Aliyar Shorehdeli** 
 
 ---
